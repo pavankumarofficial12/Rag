@@ -1,5 +1,20 @@
-sentence-transformers>=2.2.2
-scikit-learn>=1.0.2
-numpy>=1.21.0
-faiss-cpu>=1.7.2  # Use faiss-gpu if CUDA is available
-mysql-connector-python>=8.0.28
+# RAG Pipeline: From Basic to Advanced
+
+A **Retrieval-Augmented Generation (RAG)** implementation showcasing progression from basic in-memory retrieval to advanced metadata-aware systems with vector databases and MySQL integration.
+
+---
+
+## **Features**
+- **Basic RAG**: In-memory semantic search with `SentenceTransformer`.
+- **Chunking**: Splitting documents for granular retrieval.
+- **Vector Database**: Integration with `FAISS` for efficient similarity search.
+- **Metadata Filtering**: MySQL-based document retrieval with category/location filters.
+- **Semantic Search**: Cosine similarity for ranking relevant chunks.
+
+---
+
+## **Installation**
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd <repo-folder>
